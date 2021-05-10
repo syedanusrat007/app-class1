@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:text="Name"
+        android:textSize="20dp"
+        android:padding="5dp"/>
+  <EditText
+      android:id="@+id/etName"
+      android:layout_weight="1"
+      android:width="0dp"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:hint="Enter name"
+      android:textColor="@android:color/holo_purple"
+      android:textStyle="italic"
+      android:padding="5dp"
+      android:maxLines="1"
+      android:lines="1"
+      android:inputType="textPersonName"
+      android:layout_width="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:text="University"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+        <EditText
+            android:id="@+id/etUniversity"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Enter University"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:inputType="textPersonName"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="italic"
+                android:text="Level"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+            <EditText
+                android:id="@+id/etLevel"
+                android:layout_weight="1"
+                android:width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Enter Level"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic"
+                android:padding="5dp"
+                android:maxLines="1"
+                android:lines="1"
+                android:maxLength="1"
+                android:inputType="number"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:text="E-mail"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Enter E-mail"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:inputType="textWebEmailAddress"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:text="Password"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+        <EditText
+
+            android:layout_weight="1"
+            android:width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Enter Password"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:maxLength="10"
+            android:inputType="textWebPassword"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:text="Phone number"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+        <EditText
+            android:id="@+id/etPhonenumber"
+            android:layout_weight="1"
+            android:width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Enter Phone number"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="italic"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:inputType="number"
+            android:maxLength="11"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+  <Button
+      android:id="@+id/etbtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Done"
+      android:textColor="@android:color/background_dark"
+      android:textStyle="italic"
+      android:padding="5dp"/>
+</LinearLayout>
